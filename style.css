@@ -964,6 +964,8 @@ main .hotel-categories {
   border: 1px solid;
   border-collapse: collapse;
   padding: 15px;
+  list-style: none;
+  cursor: pointer;
 }
 
 .hotel-categories li:hover {
@@ -1002,6 +1004,7 @@ main .hotel-categories {
   transition: 400ms ease-in;
 }
 
-.hotel-card {
+main .hotel-card {
+  margin-top: 25px;
   display: flex;
 }
