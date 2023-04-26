@@ -693,7 +693,6 @@ transition: ease-in-out 0.7s all;
 }
 
 .enter{
-   margin-left: ;
   position: relative;
   }
 
@@ -817,6 +816,7 @@ table td {
 
 
 
+
 /* Styling for Lagos hotel page */
 
 .hotel-card{
@@ -827,6 +827,28 @@ table td {
   padding: 10px;
 }
 
+
+footer .copyright {
+  color: #9fa7ad;
+  display: flex;
+  padding: 10%;
+}
+
+.copyright i {
+  padding: 6px 10px;
+}
+
+.sponsor-container {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+/* footer styling ends */
+
+
+
+/* Styling for Lagos hotel page */
 .title-bar {
   height: 30px;
 }
@@ -971,6 +993,9 @@ main .hotel-categories {
   border: 1px solid;
   border-collapse: collapse;
   padding: 15px;
+  list-style: none;
+  cursor: pointer;
+
 }
 
 .hotel-categories li:hover {
@@ -1010,6 +1035,7 @@ main .hotel-categories {
 }
 
 main .hotel-card {
+
   display: flex;
   justify-items: space-evenly;
 }
@@ -1044,4 +1070,7 @@ main .hotel-card {
 
 .hotel-card .icons * {
   margin: auto 10px;
+
+  margin-top: 25px;
+  display: flex;
 }
