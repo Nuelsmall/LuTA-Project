@@ -7,6 +7,8 @@ const dropElem = document.querySelector(".dropdown-menu");
 const accountElem = document.querySelector(".account");
 const accountDropdown = document.querySelector(".account-dropdown-menu");
 const unlockPopup = document.getElementById('unlock');
+const subbtnEnable = document.querySelector('.btnSubscribe');
+const SubInput = document.querySelector('.emailInput');
 
 
 // dropdown/filter functionality
@@ -65,6 +67,9 @@ function closePopup(){
 
 
 // code to display successful subscribe prompt
+
+
+
 const subscribePop = document.getElementById('subcribe');
 
 function subscribeOpenPopup(){
