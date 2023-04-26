@@ -679,7 +679,6 @@ margin-left: 5px;
 }
 
 .enter{
-   margin-left: ;
   position: relative;
   }
 
@@ -799,4 +798,213 @@ table th {
 }
 table td {
   padding: 1px;
+}
+footer .copyright {
+  color: #9fa7ad;
+  display: flex;
+  padding: 10%;
+}
+
+.copyright i {
+  padding: 6px 10px;
+}
+
+.sponsor-container {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+/* footer styling ends */
+
+
+
+/* Styling for Lagos hotel page */
+.title-bar {
+  height: 30px;
+}
+
+.inputSelectLagos {
+  width: 100vw;
+  padding: 0 20%;
+  position: relative;
+  margin-top: 0;
+  margin: 10px auto;
+  border-left: 0;
+  border-right: 0;
+}
+
+.lagos--container {
+  display: flex;
+  padding: 10vw;
+}
+
+/* side aisle styling */
+section {
+  width: 15%;
+  min-width: 270px;
+
+  /* border: 2px solid #00aeff; */
+}
+
+section>div:not(:first-child, button) {
+  margin-bottom: 36px;
+  border: 1px solid;
+}
+
+section .stay-updated {
+  background-color: #893B08;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: .2rem;
+  margin-bottom: 20px;
+}
+
+.stay-updated>h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.stay-updated button {
+  background-color: #BA500A;
+}
+
+.stay-updated+button {
+  margin-bottom: 36px;
+}
+
+.listing-container>div {
+  width: auto;
+  margin: auto;
+  padding: 10px;
+  color: #B6B0A6;
+  border-bottom: 1px solid #B6B0A6;
+}
+
+.hotels-filter-listing>div {
+  display: flex;
+}
+
+.hotels-filter-listing input {
+  margin-right: 10px;
+}
+
+.hotels-filter-listing small {
+  display: block;
+  margin: -10px 10px;
+}
+
+.hotels-filter-listing button {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+}
+
+/* side aisle styling end */
+
+main {
+  padding: 0 36px;
+  width: 85%;
+  min-width: 600px;
+  margin-top: -100px;
+  color: #B6B0A6;
+}
+
+main h1 {
+  margin: 36px auto 0;
+  color: #81c2f7;
+  font-size: 24px;
+
+}
+
+main h2 {
+  margin: 15px 0 10px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+main h3 {
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+main .hotel-filter {
+  font-size: 14px;
+  color: #B6B0A6;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .hotel-filter a {
+  margin: 0 8px;
+  color: #81c2f7;
+}
+
+main select {
+  color: #B6B0A6;
+  background: none;
+  float: right;
+  width: 180px;
+  font-size: 14px;
+  border-radius: .2rem;
+  padding: 5px 8px;
+  appearance: none;
+}
+
+main .hotel-categories {
+  margin: 12px 0;
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.hotel-categories li {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 15px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.hotel-categories li:hover {
+  color: #81c2f7;
+}
+
+.active {
+  background-color: #008bcc;
+  color: #e8e6e3;
+}
+
+.only-show {
+  display: flex;
+}
+
+.only-show p {
+  font-size: 16px;
+  padding: 6px 0;
+  width: 140px;
+}
+
+.only-show span {
+  font-size: 14px;
+  color: #1ab6ff;
+  outline: auto;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.only-show span:hover {
+  background-color: #1ab6ff;
+  color: #e8e6e3;
+  transition: 400ms ease-in;
+}
+
+main .hotel-card {
+  margin-top: 25px;
+  display: flex;
 }
