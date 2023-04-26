@@ -1070,7 +1070,6 @@ main .hotel-card {
 
 .hotel-card .icons * {
   margin: auto 10px;
-
-  margin-top: 25px;
+  margin-top: 10px;
   display: flex;
 }
